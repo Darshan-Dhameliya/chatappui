@@ -75,6 +75,10 @@ export default function ChatPage() {
             ) : (
               <>
                 <ScrollToBottom className="h-100 ">
+                  <div className="text-center text-danger">
+                    Please Not Refresh page otherwise all message has been
+                    deleted
+                  </div>
                   {messages.map((item) =>
                     item.user === userDetails.username ? (
                       <>

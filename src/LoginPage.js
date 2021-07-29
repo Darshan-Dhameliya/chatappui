@@ -31,7 +31,7 @@ export default function LoginPage() {
     >
       <Grid item md={6} xs={12}>
         <Paper className="p-5 shadow-lg">
-          <h2 className="text-center text-dark">Chat App</h2>
+          <h2 className="text-center text-dark">Sandesh Lite</h2>
           <div className="text-center text-secondary">
             Please Enter Same Group Name Which Would You like To Join
           </div>
